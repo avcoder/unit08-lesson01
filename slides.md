@@ -137,15 +137,19 @@ transition: slide-left
 ---
 layout: image-right
 transition: slide-left
-image: /assets/addy.png
-backgroundSize: 400px 300px
+image: /assets/rn.png
+backgroundSize: 400px 380px
 class: text-left
 ---
 
 # 10 minute break
 
 🍦 Cool Tips, Trends and Resources:
-- 👩‍💻 [NeetCode](https://www.freecodecamp.org/news/prepare-for-technical-interviews-using-neetcode-150)
+- 👩‍💻 [React Native on FCC](https://www.freecodecamp.org/news/build-a-meditation-app-with-react-native-expo-router/)
+- 📄 [UI: React Native Paper](https://reactnativepaper.com/)
+- ⚛️ [UI: React Native Elements](https://reactnativeelements.com/)
+- 🧭 [React Navigation](https://reactnavigation.org/)
+
 
 <br>
 <hr>
