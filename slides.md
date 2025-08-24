@@ -138,7 +138,7 @@ transition: slide-left
 layout: image-right
 transition: slide-left
 image: /assets/rn.png
-backgroundSize: 400px 380px
+backgroundSize: 444px 380px
 class: text-left
 ---
 
