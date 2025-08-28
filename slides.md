@@ -73,14 +73,22 @@ layout: two-cols
 ## Exercise
 - Take a moment to explore and poke around the folders/files
 - Try changing `Welcome!` to `Hello World`
-- Take 5 minutes and keep poking around, changing stuff
-- Report what you've discovered in Zoom chat
-
-
+- Take 5 minutes and satisfy your curiosity
+   - keep poking around, change/break stuff
+- Report one thing you've discovered with the rest of the class in Zoom chat
 
 ::right::
 
 <img src="/assets/rn1.jpeg" style="height: 500px; margin: 0 auto">
+
+---
+transition: slide-left
+---
+
+# Set up BLANK React Native project
+
+- `npx create-expo-app note-app -t`
+   - choose Blank when prompted
 
 ---
 transition: slide-left
