@@ -322,6 +322,10 @@ transition: slide-left
    - extract related functionality into it
    - extract related imports
 - import ShoppingListItem into App, try copying/pasting it 3 times to see if it shows up correctly
+- okay now let's hard code 3 items via `name` prop `<ShoppingListItem name="mango">` etc
+- add related TS if needed for prop
+- modify ShoppingListemItem to display prop name
+- Try changing `handleDelete` to change sentence to "Are you sure you want to delete insert-name-here"
 
 ---
 layout: image-right
