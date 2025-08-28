@@ -368,6 +368,27 @@ transition: slide-left
    - similarly add custom styles for our item Text but use a `textDecorationLine: "line-through"` as well as any other colour changes
 
 
+
+---
+transition: slide-left
+---
+
+# Icon Buttons
+
+- `npx expo install @expo/vector-icons`
+- Try picking and copying an icon appropriate for Delete button
+   - see https://icons.expo.fyi/Index
+   - Copy import statement `import AntDesign from "@expo/vector-icons/AntDesign";`
+   - Paste it in our `ShoppingListItem.tsx`
+   - Copy the Render the component
+- Replace our `<Text>Delete` component with your icon 
+   ```tsx
+   <AntDesign name="closecircle" size={24} color="theme.colorRed" />
+   ```
+   - may need to remove previous TouchableOpacity styles
+- if item is completed, change button color to be grey
+
+
 ---
 transition: slide-left
 ---
