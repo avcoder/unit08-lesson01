@@ -310,6 +310,19 @@ transition: slide-left
    ```
 
 ---
+transition: slide-left
+---
+
+# Exercise: Components
+
+- create a `./components/` folder
+- create `ShoppingListItem.tsx`
+   - extract our item (i.e. `<View styles={styles.itemContainer}>...</View>`) into here
+   - extract related files into it as well
+   - extract related functionality into it
+   - extract related imports
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/rn.png
