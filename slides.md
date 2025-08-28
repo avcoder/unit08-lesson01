@@ -88,7 +88,15 @@ transition: slide-left
 # Set up BLANK React Native project
 
 - `npx create-expo-app note-app -t`
-   - choose Blank when prompted
+   - choose Blank (TS) when prompted
+- `cd note-app`
+- `npm start`
+- scan QR code > should see app via Expo Go 
+   - if using iPhone: use camera app to scan QR code
+   - if using Android: use Expo Go app to scan QR code
+   - ensure phone is connected on same wi-fi as your computer
+
+
 
 ---
 transition: slide-left
@@ -96,16 +104,16 @@ transition: slide-left
 
 # Set up Blank React Native project
 
-- `npx create-expo-app name-your-app -t`
-- choose 'Blank Typescript' template
-- open in VSCode
-- `npm run start` 
-   - if using iPhone: use camera app to scan QR code
-   - if using Android: use Expo Go app to scan QR code
-   - ensure phone is connected on same wi-fi as your computer
-- try shaking your phone (OR try 3 touch hold - iOS only) > reveals debug menu
-- optionally can also expose your app to anywhere in the world via `npm start --tunnel`
+- Question: How can I inspect/debug on mobile?
+   - Answer #1 try shaking your phone
+   - Answer #2 try 3 touch hold - iOS only > reveals debug menu
+
+## Exercise 
+
+- You can also expose your app to anywhere in the world via `npm start --tunnel`
    - good if you wish to share your work with a co-worker, friend or client
+   - Let's try it!
+   
 ---
 transition: slide-left
 ---
