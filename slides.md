@@ -263,6 +263,17 @@ transition: slide-left
    - add `alignItems: "center"`
 
 ---
+transition: slide-left
+---
+
+# Exercise: Style our Delete button
+
+- Add to our `StyleSheet.create({` another key of `button`
+- Try adding a `backgroundColor` of black to our button
+- Try change font color to white via `<Text style={styles.buttonText}>Delete</Text>` and in our `StyleSheet.create` have a `buttonText: { color: theme.colorWhite }`
+
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/rn.png
