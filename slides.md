@@ -184,6 +184,17 @@ transition: slide-left
    - defined as valid JS objects
    - no CSS animations
 
+## Exercise
+- Try wrapping our Text component in a View component
+   ```tsx
+   <View style={{ backgroundColor: "yellow" }}>
+      <Text>Open...</Text>
+   </View>
+   ```
+- Add some `paddingHorizontal: 8,`
+- Add some `paddingVertical: 16,`
+- Remove `alignItems: "center"`
+- Notice styling uses flexbox
 
 ---
 layout: image-right
