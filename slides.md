@@ -120,16 +120,17 @@ transition: slide-left
 
 # Expo Go Framework Overview
 
-- Expo is an Open Source React Native framework
+- Expo is an Open Source React Native [framework](https://react.dev/learn/creating-a-react-app#expo)
    - similar to how Next.js is a React Framework; Nuxt.js is a Vue Framework
-   - https://react.dev/learn/creating-a-react-app#expo
 - Vanilla React Native gives us components to render text, views, scrollable lists, etc.
 - Vanilla React Native doesn't give us out of the box nav, push notifs, using camera etc.
 - Expo provides of tools and libraries that are not provided out of the box 
 - Expo Go is a small part of Expo, so it's NOT the same as Expo
 - Expo Go is a "sandbox" designed for learning, prototyping but isn't recommended when building production apps. You can't customize native code with it. It is designed to quickly get started building apps without spending time setting up your native dev env.
 - What do you use to build production mobile React Native apps?   [Development Builds](https://docs.expo.dev/develop/development-builds/introduction/)
-- First four classes we'll use Expo Go.  Last 4 classes we'll eventually use Development Build.
+- We'll create 2 separate apps
+   - First four classes we'll use Expo Go
+   - Last 4 classes we'll eventually use Development Build
 
 ---
 transition: slide-left
