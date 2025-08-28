@@ -271,7 +271,17 @@ transition: slide-left
 - Add to our `StyleSheet.create({` another key of `button`
 - Try adding a `backgroundColor` of black to our button
 - Try change font color to white via `<Text style={styles.buttonText}>Delete</Text>` and in our `StyleSheet.create` have a `buttonText: { color: theme.colorWhite }`
+- Add some `padding`
+- Add a `borderRadius`
+- Add a `fontWeight: "bold",`
+- Add a `textTransform: "uppercase",`
+- Add `letterSpacing: 1,`
 
+---
+transition: slide-left
+---
+
+# Exercise: Adding alerts
 
 ---
 layout: image-right
