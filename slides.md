@@ -417,5 +417,5 @@ transition: slide-left
 
 # Homework
 
-- Work on your "Algorithm and Structural Foundations" assignment due July 20 midnight EST
+- Think about your Capstone Planning Project
    - can submit before due date if you wish
