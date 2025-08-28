@@ -194,7 +194,7 @@ transition: slide-left
 - Add some `paddingHorizontal: 8,`
 - Add some `paddingVertical: 16,`
 - Remove `alignItems: "center"`
-- Notice styling uses flexbox
+- Notice styling uses flexbox (also default flex direction is column)
 
 ---
 layout: image-right
