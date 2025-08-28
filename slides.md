@@ -54,8 +54,8 @@ transition: slide-left
 # Set up React Native project
 
 - Install Expo Go > if it asks to find/connect to devices on your local network > Allow
-- `npx create-expo-app --help` (help flag to see options)
-- `npx create-expo-app whatever-app --template`
+- `npx create-expo-app --help` (OK to proceed? say yes)
+- `npx create-expo-app name-your-app -t`
 - choose 'Blank Typescript' template
 - open in VSCode
 - `npm run start` 
@@ -157,6 +157,17 @@ class: text-left
 
 - 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
 - ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
+
+---
+transition: slide-left
+---
+
+# Explore Expo Examples
+
+1. `npx create-expo-app --help`
+2. Find the command that allows you to choose an Expo example via `--example` flag
+3. Pick an example to install from [this list](https://github.com/expo/examples?tab=readme-ov-file) and have fun poking around
+4. Goto Step 2 and repeat to see/modify other examples 
 
 ---
 transition: slide-left
