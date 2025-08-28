@@ -113,7 +113,7 @@ transition: slide-left
 - You can also expose your app to anywhere in the world via `npm start --tunnel`
    - good if you wish to share your work with a co-worker, friend or client
    - Let's try it!
-   
+
 ---
 transition: slide-left
 ---
@@ -129,6 +129,7 @@ transition: slide-left
 - Expo Go is a small part of Expo, so it's NOT the same as Expo
 - Expo Go is a "sandbox" designed for learning, prototyping but isn't recommended when building production apps. You can't customize native code with it. It is designed to quickly get started building apps without spending time setting up your native dev env.
 - What do you use to build production mobile React Native apps?   [Development Builds](https://docs.expo.dev/develop/development-builds/introduction/)
+- First four classes we'll use Expo Go.  Last 4 classes we'll eventually use Development Build.
 
 ---
 transition: slide-left
