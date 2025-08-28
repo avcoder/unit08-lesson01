@@ -328,23 +328,6 @@ transition: slide-left
 - Try changing `handleDelete` to change sentence to "Are you sure you want to delete insert-name-here"
 
 ---
-transition: slide-left
----
-
-# Exercise: Scratch off ToDo Item when Completed
-
-- add any necessary styling as you see fit along the way
-- add another prop `isCompleted?: boolean;`
-- we want different styles if item is completed or not
-   ```tsx
-   <View style={[styles.itemContainer, isCompleted ? styles.completedContainer : undefined]}
-   ```
-- 💡 can change CompletedContainer styles to have different background colors etc.
-   - similarly add custom styles for button when completed
-   - similarly add custom styles for our item Text but use a `textDecorationLine: "line-through"` as well as any other colour changes
-
-
----
 layout: image-right
 transition: slide-left
 image: /assets/rn.png
@@ -367,6 +350,22 @@ class: text-left
 
 - 🧪 [Enter anonymous lab questions](https://docs.google.com/forms/d/e/1FAIpQLSevvGARdHQikso-uLqFCO481MABKE5HofuSrlzEPMNQ2ZLykw/viewform?usp=dialog)
 - ℹ️ [Course feedback survey](https://circuitstream.typeform.com/to/ZoyYk7px#course_id=SoftwareAN&instructor=9514)
+
+---
+transition: slide-left
+---
+
+# Exercise: Scratch off ToDo Item when Completed
+
+- add any necessary styling as you see fit along the way
+- add another prop `isCompleted?: boolean;`
+- we want different styles if item is completed or not
+   ```tsx
+   <View style={[styles.itemContainer, isCompleted ? styles.completedContainer : undefined]}
+   ```
+- 💡 can change CompletedContainer styles to have different background colors etc.
+   - similarly add custom styles for button when completed
+   - similarly add custom styles for our item Text but use a `textDecorationLine: "line-through"` as well as any other colour changes
 
 
 ---
