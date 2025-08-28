@@ -249,12 +249,16 @@ transition: slide-left
    `<Button title="click me" />`
 - Instead, let's import `Pressable` and `TouchableOpacity`
    ```tsx
-   <Pressable onPress={() => console.log('pressed')}>
-      <Text>Delete</Text>
-   </Pressable>
+   <View style={styles.itemContainer}>
+      <Text style={styles.itemText}>Hello</Text>
+         <Pressable onPress={() => console.log('pressed')}>
+            <Text>Delete</Text>
+         </Pressable>
    ```
    - Try pressing the button.  Does terminal log out?
 - Replace our `<Pressable>` with `<TouchableOpacity>`
+   - Try adding prop `activeOpacity: 8` to change opacity 
+   - add `flexDirection: "row,"` in `itemContainer`
 
 ---
 layout: image-right
