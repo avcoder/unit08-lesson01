@@ -197,6 +197,28 @@ transition: slide-left
 - Notice styling uses flexbox (also default flex direction is column)
 
 ---
+transition: slide-left
+---
+
+# More Exercises
+
+- Try adding a `borderBottomColor: #123456`
+- Don't see anything?   Try adding a `bottomBorderWidth: 1`
+- ChatGPT: `in react native, when styling, I notice I'm using numberse that aren't pixels. Why?`
+- Try importing PixelRatio from 'react-native' and output it via `<Text>{PixelRatio.get()}...`
+- Let's style our Text component by
+   - adding `fontSize: 18`
+   - add `fontWeight: "200"`
+- Similar to how we had `.module.css`, let's create a separate stylesheet `./theme.ts` and move our styles into it (fyi - can't have global styles in R.N.)
+   ```ts
+   export const theme = {
+      colorGreen: "#123456",
+      colorWhite: "#ffffff"
+      etc.
+   }
+   ```
+
+---
 layout: image-right
 transition: slide-left
 image: /assets/rn.png
