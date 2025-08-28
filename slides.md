@@ -321,6 +321,7 @@ transition: slide-left
    - extract related files into it as well
    - extract related functionality into it
    - extract related imports
+- import ShoppingListItem into App, try copying/pasting it 3 times to see if it shows up correctly
 
 ---
 layout: image-right
