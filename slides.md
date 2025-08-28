@@ -209,12 +209,33 @@ transition: slide-left
 - Let's style our Text component by
    - adding `fontSize: 18`
    - add `fontWeight: "200"`
+
+---
+transition: slide-left
+---
+
+# Styling Exercises
+
 - Similar to how we had `.module.css`, let's create a separate stylesheet `./theme.ts` and move our styles into it (fyi - can't have global styles in R.N.)
    ```ts
    export const theme = {
       colorGreen: "#123456",
       colorWhite: "#ffffff"
       etc.
+   }
+   ```
+- in our `const styles = StyleSheet.create({` in addition to container, let's add:
+   - itemContainer
+   - itemText
+   ```ts
+   itemContainer: {
+      borderBottomWidth: 1,
+      borderBottomColor: "#123456",
+      paddingHorizontal: 8,
+      paddingVertical: 16,
+   },
+   itemText: {
+      fontSize: 18, fontWeight: "200"
    }
    ```
 
