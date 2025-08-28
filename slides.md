@@ -51,10 +51,43 @@ transition: slide-left
 transition: slide-left
 ---
 
-# Set up React Native project
+# Set up Default React Native project (pg.1)
 
 - Install Expo Go > if it asks to find/connect to devices on your local network > Allow
 - `npx create-expo-app --help` (OK to proceed? say yes)
+- `npx create-expo-app helloworld`
+- Once you see `✅ Your project is ready` then:
+   - `cd helloworld`
+   - go to package.json to find out how to start via `npm`
+   - fyi: How can I start it without using `npm`? 
+
+---
+transition: slide-left
+layout: two-cols
+---
+
+# Set up Default React Native project (pg.2)
+
+- a QR code comes up, scan it with your phone that already has Expo Go installed; should eventually see -->
+
+## Exercise
+- Take a moment to explore and poke around the folders/files
+- Try changing `Welcome!` to `Hello World`
+- Take 5 minutes and keep poking around, changing stuff
+- Report what you've discovered in Zoom chat
+
+
+
+::right::
+
+<img src="/assets/rn1.jpeg" style="height: 500px; margin: 0 auto">
+
+---
+transition: slide-left
+---
+
+# Set up Blank React Native project
+
 - `npx create-expo-app name-your-app -t`
 - choose 'Blank Typescript' template
 - open in VSCode
