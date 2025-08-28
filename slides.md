@@ -283,6 +283,32 @@ transition: slide-left
 
 # Exercise: Adding alerts
 
+- create a `handleDelete` function
+   ```tsx
+   const handleDelete = () => {
+      Alert.alert("Are you sure you want to delete this?")
+   }
+   ```
+   ```tsx
+   <TouchableOpacity onPress={handleDelete}>
+   ```
+- Try it
+- Try adding a second argument for subtext to `Alert.alert()`
+- Try adding a 3rd argument:
+   ```tsx
+   [
+      {
+         text: "Yes",
+         onPress: () => console.log('deleting'),
+         style: "destructive",
+      },
+      {
+         text: "Cancel",
+         style: "cancel",
+      }
+   ]
+   ```
+
 ---
 layout: image-right
 transition: slide-left
