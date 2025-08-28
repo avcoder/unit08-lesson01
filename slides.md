@@ -238,6 +238,23 @@ transition: slide-left
       fontSize: 18, fontWeight: "200"
    }
    ```
+---
+transition: slide-left
+---
+
+# Exercise: Create a Button
+
+- R.N. does come with a Button element but is hardly used because you can't customize it.  
+   - import `Button` from 'react-native' and use it:
+   `<Button title="click me" />`
+- Instead, let's import `Pressable` and `TouchableOpacity`
+   ```tsx
+   <Pressable onPress={() => console.log('pressed')}>
+      <Text>Delete</Text>
+   </Pressable>
+   ```
+   - Try pressing the button.  Does terminal log out?
+- Replace our `<Pressable>` with `<TouchableOpacity>`
 
 ---
 layout: image-right
