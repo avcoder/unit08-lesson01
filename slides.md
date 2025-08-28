@@ -259,6 +259,8 @@ transition: slide-left
 - Replace our `<Pressable>` with `<TouchableOpacity>`
    - Try adding prop `activeOpacity: 8` to change opacity 
    - add `flexDirection: "row,"` in `itemContainer`
+   - add `justifyContent: "space-between",`
+   - add `alignItems: "center"`
 
 ---
 layout: image-right
